@@ -1,0 +1,37 @@
+Nome: Carlos alberto from MPP.
+  
+   Caderneta da DocesNet Js
+  Recomendação: - > B7Web 
+JavaScript - > ! - > Java 
+1. var let const
+
+String: > "Nome"
+Number: > 1
+Boolean: true or false.
+
+
+string: {
+  Template String    
+}
+Number:{
+
+}
+Booloean: {
+
+}
+
+
+alert("Olá");
+confirm("Ok?");
+prompt("Digite seu comentário:");
+
+Os dois tipos de comentários:
+1: // Que só comenta uma linha.
+2/* comenta
+mais de uma linha.
+*/
+
+✔️
+1. Passo é fazer o  HTML ✔️
+2. Passo é fazer o CSS ✔️
+3. Passo é fazer o JS ✔️
