@@ -3,13 +3,14 @@
 //prompt("Digite seu comentário:");
 
 const projetos = [
+  { nome: "Quem criou MPP?", mensagem:"Carlos Alberto Lacerda Dias, mais conhecido como (Kaká)." },  
   { nome: " MPP", link:"https://gitcacatyu.github.io/meuMppEvep/index.html" },
   { nome: " DoceNet", link:"" },
   { nome: " EVEP", link:"https://gitcacatyu.github.io/EVEP-MPP/"},
   { nome: " Chef Kákia", link:"" },
   { nome: " DevLinks", link:""},
   { nome: " AtalhoMPPÚnico AMÚ", link:"" },
-  { nome: "Quantos anos MPP tem?", mensagem: "MPP tem 1 ano e 8 meses!" },
+  { nome: "Quantos anos tem MPP?", mensagem: "MPP tem 1 ano e 8 meses!" },
   { nome: "Qual é o verdadeiro nome do MPP?", mensagem: "Meu Primeiro Programa!"},
   { nome: "Google" , mensagem: "Ok!", link:"https://google.com"},
   { nome: "Quem fez a MPP?", mensagem: "Carlos Alberto!"}, 
@@ -38,7 +39,12 @@ function buscar() {
 
     //  Verifica se tem resultados ANTES do forEach
     if (resultados.length === 0) {
-        lista.innerHTML = "<li>Nenhum resultado de pesquisa!</li>";
+        lista.innerHTML = `<li>
+             404 <br>
+        Uhmm... Não conseguir achar! <br>
+          Tente de outra forma, verifique sua pergunta!
+
+        </li>`;
         return;
     }
 
