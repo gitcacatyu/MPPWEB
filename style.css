@@ -7,27 +7,56 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   color: white;
-  padding: 20px;
-  text-align: center;
+  padding: 2px;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+  overflow: hidden;
 }
 
 h1 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px gray;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0.5px 3px gray;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 
 
 input {
   border-radius: 25px;
-  height: 30px;
-  width: 250px;
+  height: 35px;
+  width: 500px;
   padding: 5px 10px;
   margin-bottom: 10px;
   border: none;
   margin: 12px;
   box-shadow: 0.5px 3px gray;
+  font-size: 16px;
+  outline: none;
+  color: black;
+  background-color: #eee;
+  transition: border-radius 0.3s ease;
+  box-sizing: border-box;
+
   }
 
 button {
@@ -38,10 +67,16 @@ button {
   border: none;
   background-color: #333;
   color: white;
+  font-size: 16px;
+  box-shadow: 0.5px 3px gray;
+  transition: border-radius 0.3s ease, background-color 0.3s ease;
+  box-sizing: border-box;
+  margin-left: 12px;
 }
 
 input:hover {
   border-radius: 15px;
+  background-color: #ddd;
 }
 
 button:hover {
@@ -55,6 +90,13 @@ ul {
   margin-top: 20px;
   width: 100%;
   max-width: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0.5px 3px gray;
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 li {
@@ -64,4 +106,14 @@ li {
   margin-bottom: 10px;
   border-radius: 10px;
   list-style: none;
+  box-shadow: 0.5px 3px gray;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
