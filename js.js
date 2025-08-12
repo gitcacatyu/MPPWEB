@@ -5,9 +5,10 @@
 const projetos = [
   { nome: "Quem criou MPP?", mensagem:"Carlos Alberto Lacerda Dias, mais conhecido como (Kaká)." },  
   { nome: " MPP", link:"https://gitcacatyu.github.io/meuMppEvep/index.html" },
-  { nome: " DoceNet", link:"" },
-  { nome: " EVEP", link:"https://gitcacatyu.github.io/EVEP-MPP/"},
-  { nome: " Chef Kákia", link:"" },
+  { nome: " DoceNet", link:"https://gitcacatyu.github.io/Chef-K-kia/" },
+  { nome: " EVEP", link:"https://gitcacatyu.github.io/EVEP/index.html" },
+  { nome: " Chef Kákia", link:"https://gitcacatyu.github.io/Chef-K-kia/index.html" },
+  { nome: " CeéKem", link:"https://gitcacatyu.github.io/Ce-Kem/index.html" },
   { nome: " DevLinks", link:""},
   { nome: " AtalhoMPPÚnico AMÚ", link:"" },
   { nome: "Quantos anos tem MPP?", mensagem: "MPP tem 1 ano e 8 meses!" },

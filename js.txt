@@ -35,3 +35,7 @@ mais de uma linha.
 1. Passo é fazer o  HTML ✔️
 2. Passo é fazer o CSS ✔️
 3. Passo é fazer o JS ✔️
+
+Guardar:
+ <li>    *Informações! *     </li>
+          <li>Esse navegador é só utilizado só para projetos e pesquisas do MPP.</li>
