@@ -8,6 +8,8 @@
     <title>WEB MPP</title>
 </head>
 <body>
+   <div id="relogio" style="font-size: 50px; font-weight: bold;"></div>
+   <br><br>
      <h1>WEB MPP</h1>
        <button onclick="buscar()">🔍</button>
         <input type="text"  id="campoBusca"  placeholder="Digite os projetos e as perguntas da MPP">    
@@ -16,6 +18,20 @@
      <ul id="listarProjeto">
         
      </ul>
+
+
+<script>
+  function atualizarHora() {
+    const agora = new Date();
+    const horas = String(agora.getHours()).padStart(2, '0');
+    const minutos = String(agora.getMinutes()).padStart(2, '0');
+    const segundos = String(agora.getSeconds()).padStart(2, '0');
+    document.getElementById("relogio").innerText = `${horas}:${minutos}:${segundos}`;
+  }
+
+  setInterval(atualizarHora, 1000);
+  atualizarHora();
+</script>
 
 <script src="script.js"></script>
 <script src="js.js"></script>
