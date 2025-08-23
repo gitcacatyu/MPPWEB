@@ -57,3 +57,35 @@ function buscar() {
 document.getElementById("campoBusca").addEventListener("keypress", (e) => {
     if (e.key === "Enter") buscar();
 });
+
+function mostrarSugestoes() {
+    const valor = document.getElementById("campoBusca").value.toLowerCase();
+    const sugestoesBox = document.getElementById("sugestoes");
+    sugestoesBox.innerHTML = "";
+
+    if (valor === "") {
+        sugestoesBox.style.display = "none";
+        return;
+    }
+
+    const filtradas = projetos.filter(p => p.nome.toLowerCase().includes(valor));
+
+    if (filtradas.length === 0) {
+        sugestoesBox.style.display = "none";
+        return;
+    }
+
+    filtradas.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item.nome;
+        li.onclick = () => {
+            document.getElementById("campoBusca").value = item.nome;
+            sugestoesBox.style.display = "none";
+            buscar();
+        };
+        sugestoesBox.appendChild(li);
+    });
+
+    sugestoesBox.style.display = "block";
+}
+
