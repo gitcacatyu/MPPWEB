@@ -5,6 +5,7 @@ const projetos = [
   { nome: "EVEP", link:"https://gitcacatyu.github.io/EVEP/index.html" },
   { nome: "Chef Kákia", link:"https://gitcacatyu.github.io/Chef-K-kia/index.html" },
   { nome: "CeéKem", link:"https://gitcacatyu.github.io/Ce-Kem/index.html" },
+   { nome: "Jacare", link:"https://gitcacatyu.github.io/jacare-/index.html" },
   { nome: "DevLinks", link:""},
   { nome: "AtalhoMPPÚnico AMÚ", link:"" },
   { nome: "Quantos anos tem MPP?", mensagem: "MPP tem 1 ano e 8 meses!" },
