@@ -31,12 +31,7 @@ function buscar() {
     const resultados = projetos.filter(proj => proj.nome.toLowerCase().includes(busca));
 
     if (resultados.length === 0) {
-        lista.innerHTML = `<li>
-             404 <br>
-        Uhmm... Não conseguir achar! <br>
-          Tente de outra forma, verifique sua pergunta!
-        </li>`;
-        return;
+       location.href='aleatory.html'
     }
 
     resultados.forEach(projeto => {
