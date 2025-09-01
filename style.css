@@ -44,11 +44,12 @@ h1 {
 input {
   border-radius: 25px;
   height: 35px;
-  width: 500px;
+  width: 90%; /* Agora ocupa 90% do container */
+  max-width: 500px; /* Limite para telas grandes */
   padding: 5px 10px;
   margin-bottom: 10px;
   border: none;
-  margin: 12px;
+  margin: 12px auto; /* Centraliza no mobile */
   box-shadow: 0.5px 3px gray;
   font-size: 16px;
   outline: none;
@@ -56,8 +57,22 @@ input {
   background-color: #eee;
   transition: border-radius 0.3s ease;
   box-sizing: border-box;
+  display: block;
+}
 
+/* Para telas muito pequenas */
+@media (max-width: 480px) {
+  input {
+    width: 95%; /* quase toda a tela */
+    font-size: 14px; /* reduz um pouco a fonte */
+    color: #111;
+    background-color: #cecece;
+    border: none;
   }
+
+
+}
+
 
 button {
   border-radius: 30px;
